@@ -1,10 +1,10 @@
-# v0.1.2-beta.1 Beta Notes
+# v0.1.3-beta.1 Beta Notes
 
 Codex ScreenPet turns a spare phone, tablet, or browser screen into a local dashboard for Codex Desktop tasks.
 
 ## Included Artifacts
 
-- `downloads/Blinky-Codex-ScreenPet-v0.1.2.dmg`
+- `downloads/Blinky-Codex-ScreenPet-v0.1.3.dmg`
 - `downloads/codex-screenpet-runtime.zip`
 - `downloads/codex-screenpet-runtime-manifest.json`
 
@@ -15,6 +15,7 @@ Codex ScreenPet turns a spare phone, tablet, or browser screen into a local dash
 - Mobile instruction composer with delivery confirmation against the target conversation log.
 - Local setup page with Blinky password, QR codes, local/private-network URLs, and permission notes.
 - Native macOS menu bar MVP for Start Server, Stop Server, Open Setup, Launch at Login, and user-confirmed runtime update checks.
+- Open Setup starts the local server automatically when needed, then opens the setup page after readiness is confirmed.
 - Menu bar server startup works with common macOS Node.js installs, including Homebrew, nvm, Volta, mise, asdf, and the Codex Desktop bundled runtime.
 - Demo mode for public screenshots without reading real Codex data.
 
@@ -30,9 +31,9 @@ Codex ScreenPet turns a spare phone, tablet, or browser screen into a local dash
 
 ## Verification Snapshot
 
-- Version: `0.1.2`
-- Runtime version: `0.1.2+8dc9513`
-- Git revision: `8dc9513`
+- Version: `0.1.3`
+- Runtime version: `0.1.3+211f26b`
+- Git revision: `211f26b`
 - Dirty worktree at generation time: `false`
-- App DMG size: `2282767` bytes
+- App DMG size: `2284094` bytes
 - Runtime zip size: `281748` bytes
