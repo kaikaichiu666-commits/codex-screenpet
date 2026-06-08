@@ -12,7 +12,7 @@ Blinky is a free macOS beta for Codex power users. Run it on the Mac where Codex
 
 **Most users should download this file:**
 
-[Download Blinky Codex ScreenPet for macOS](https://raw.githubusercontent.com/kennyzhaoo/codex-screenpet/main/downloads/Blinky-Codex-ScreenPet-v0.1.1.dmg)
+[Download Blinky Codex ScreenPet for macOS](https://raw.githubusercontent.com/kennyzhaoo/codex-screenpet/main/downloads/Blinky-Codex-ScreenPet-v0.1.2.dmg)
 
 After downloading, open the DMG, drag `Blinky Codex ScreenPet.app` into **Applications**, then open it from Applications on the Mac that runs Codex Desktop.
 
@@ -53,6 +53,8 @@ A Developer ID signed and notarized build is planned if there is enough real dem
 5. Use the shown phone URL or QR code on your phone or tablet.
 6. Enter the Blinky password shown on the Mac setup page.
 
+The menu bar app starts the local server with Node.js from common macOS installs, including Homebrew, nvm, Volta, mise, asdf, or the Codex Desktop bundled runtime.
+
 Use `http://` for local and private-network access unless you add your own TLS proxy.
 
 ## Safety Notes
@@ -75,12 +77,12 @@ Runtime updates only replace the web dashboard, setup page, local server, script
 
 ## Release Metadata
 
-- Version: `0.1.1`
-- Release tag: `v0.1.1-beta.1`
-- Runtime version: `0.1.1+4485735`
-- Git revision: `4485735`
+- Version: `0.1.2`
+- Release tag: `v0.1.2-beta.1`
+- Runtime version: `0.1.2+8dc9513`
+- Git revision: `8dc9513`
 - Generated from dirty worktree: `false`
-- macOS download: `Blinky-Codex-ScreenPet-v0.1.1.dmg`
+- macOS download: `Blinky-Codex-ScreenPet-v0.1.2.dmg`
 
 ## Feedback
 
